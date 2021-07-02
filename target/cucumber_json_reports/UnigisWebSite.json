@@ -1,0 +1,279 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-02T13:18:58.645Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2830952800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TC Llenado incompleto del formulario de contacto",
+        "description": "",
+        "id": "pagina-de-contacto;tc-llenado-incompleto-del-formulario-de-contacto",
+        "after": [
+          {
+            "result": {
+              "duration": 932602400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7949201500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "He abierto el sitio web de Unigis",
+            "match": {
+              "location": "HomePageSteps.he_abierto_el_sitio_web_de_Unigis()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2035674300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Doy clic en el boton Contacto",
+            "match": {
+              "location": "HomePageSteps.doy_clic_en_el_boton_Contacto()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18634017200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Lleno el formulario de contacto excepto un campo y doy clic en Enviar",
+            "match": {
+              "location": "ContactoPageSteps.lleno_el_formulario_de_contacto_excepto_un_campo_y_doy_clic_en_Enviar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72957600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Se muestra el mensaje Rellena todos los campos obligatorios",
+            "match": {
+              "location": "ContactoPageSteps.se_muestra_el_mensaje_Rellena_todos_los_campos_obligatorios()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Pagina de Contacto",
+    "description": "",
+    "id": "pagina-de-contacto",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Contacto.feature",
+    "tags": []
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-02T13:19:31.124Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1726825500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "TC Validar cambio de idioma de Espa�ol a Ingles mediante URL",
+        "description": "",
+        "id": "cambios-de-idioma;tc-validar-cambio-de-idioma-de-espa�ol-a-ingles-mediante-url;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 846390900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7710276600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "He abierto el sitio web de Unigis",
+            "match": {
+              "location": "HomePageSteps.he_abierto_el_sitio_web_de_Unigis()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1699612500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Situo el cursor en la opcion de idioma Espanol",
+            "match": {
+              "location": "HomePageSteps.situo_el_cursor_en_la_opcion_de_idioma_Espanol()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6124337000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Doy clic en la opcion English",
+            "match": {
+              "location": "HomePageSteps.doy_clic_en_la_opcion_English()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15173100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "La URL cambia de valor \"https://www.unigis.com/en/unigis/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.unigis.com/en/unigis/\"",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.la_URL_cambia_de_valor(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-02T13:19:49.249Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1616553800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "TC Validar cambio de idioma de Espa�ol a Portugues mediante URL",
+        "description": "",
+        "id": "cambios-de-idioma;tc-validar-cambio-de-idioma-de-espa�ol-a-portugues-mediante-url;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 811853300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7506479700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "He abierto el sitio web de Unigis",
+            "match": {
+              "location": "HomePageSteps.he_abierto_el_sitio_web_de_Unigis()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1686000400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Situo el cursor en la opcion de idioma Espanol",
+            "match": {
+              "location": "HomePageSteps.situo_el_cursor_en_la_opcion_de_idioma_Espanol()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6232506500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Doy clic en la opcion Portugues",
+            "match": {
+              "location": "HomePageSteps.doy_clic_en_la_opcion_Portugues()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17089300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "La URL cambia de valor \"https://www.unigis.com/pt/portugues/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.unigis.com/pt/portugues/\"",
+                  "offset": 23
+                }
+              ],
+              "location": "HomePageSteps.la_URL_cambia_de_valor(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cambios de Idioma",
+    "description": "",
+    "id": "cambios-de-idioma",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Idiomas.feature",
+    "tags": []
+  }
+]
